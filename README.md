@@ -1,7 +1,7 @@
 # wikipedia-index-scraper
 The program can map out the path between 2 wikipedia pages.
 
-###### Note: On the pages at https://en.wikipedia.org/wiki/Wikipedia:Contents/A%E2%80%93Z_index are considered for the project. 
+###### Note: Only the pages at https://en.wikipedia.org/wiki/Wikipedia:Contents/A%E2%80%93Z_index are considered for the project. 
 ## Output
 ##### The output of the array is the order of page navigation.
 
