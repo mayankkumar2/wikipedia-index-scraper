@@ -43,6 +43,9 @@ func Find(i string, f string) []string{
 	init := strconv.Itoa(utils.IndexOf(i,data))
 	final := strconv.Itoa(utils.IndexOf(f,data))
 	path := bfs(init, final)
+	if path == "-1" {
+		return []string{}
+	}
 	ev := strings.Split(path,"-")
 	st := make([]string, len(ev))
 	for ix, v := range ev {
